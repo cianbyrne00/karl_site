@@ -95,3 +95,59 @@ footer
     text-align: center;
     font-size: 50px;
 }
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) 
+{
+
+    header
+    {
+        height: auto;
+        text-align: start;
+        margin: 15px 0;
+    }
+
+    #logo
+    {
+        text-align: left;
+        margin-left: 16px;
+    }
+
+    .main_content
+    {
+        width: 100%;
+        padding: 0;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .nav_list
+    {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    .image_container
+    {
+        margin-left: 3%;
+        width: 94%;
+    }
+
+    li
+    {
+        margin: 40px 0;
+    }
+
+    footer
+    {
+        height: auto;
+        padding: 15px 0;
+        font-size: 25px;
+    }
+
+    #hidden
+    {
+        display: none;
+    }
+
+}
