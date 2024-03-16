@@ -46,6 +46,25 @@
             display: flex;
             margin-bottom: 50px;
         }
+
+        @media only screen and (max-width: 768px) 
+        {
+            h1
+            {
+                text-align: start;
+                margin-left: 20px;
+            }
+
+            p
+            {
+                margin: 20px;
+            }
+
+            .film_snap
+            {
+                width: calc(100% - 40px);
+            }
+        }
         
     </style>
 </head>
@@ -53,7 +72,7 @@
 <script src="app.js"></script>
 </body>
 <header>
-   <a href="index.html"> <h1 id="logo" class="gelasio-medium"> Karl Deehan<b>.</b></h1> </a>
+    <a href="index.html"> <h1 id="logo" class="gelasio-medium">Karl Deehan<b>.</b></h1> </a>
 </header>
 <div class="main_content roboto-light">
         <h1 class="gelasio-medium"> Waiting Room </h1>
