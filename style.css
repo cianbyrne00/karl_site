@@ -32,7 +32,7 @@ a:link {
 body
 {
     margin: 0;
-    background-color: black;
+    background: rgb(42, 42, 42);
     color: white;
 }
 
@@ -51,6 +51,7 @@ header
 {
     width: 60%;
     padding: 24px 20%;
+    padding-top: 0px;
     display: flex;
     align-content: center;
     justify-content: center;
