@@ -10,12 +10,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   a:hover {
@@ -31,6 +31,8 @@ a:link {
 body
 {
     margin: 0;
+    background-color: black;
+    color: white;
 }
 
 header
@@ -144,11 +146,6 @@ footer
         height: auto;
         padding: 15px 0;
         font-size: 25px;
-    }
-
-    #hidden
-    {
-        display: none;
     }
 
 }
