@@ -44,6 +44,40 @@
             width: 100%;
         }
 
+        #faceseverywhere
+        {
+            border: 1px;
+            border-style: double;
+            border-color: black;
+        }
+
+        @media only screen and (max-width: 768px) 
+        {
+
+        .film_list_container
+        {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .film_container
+        {
+            height: 90vw;
+            width: 90vw;
+            margin: 50px 10px;
+            text-align: center;
+        }
+
+        .main_content
+        {
+            height: auto;
+            padding: 0;
+        }
+
+        }
+
     </style>
 </head>
 <body>
@@ -70,7 +104,7 @@
             </a>
             <a href="https://www.instagram.com/reel/CsWoicGtWfR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
                 <div class="film_container">
-                    <img src="assets/com_still_3.png"/>
+                    <img id="faceseverywhere" src="assets/com_still_3.png"/>
                     <h1> keepfaceseverywhere </h1>
                     <p> Writer / Director</p>
                 </div> 
