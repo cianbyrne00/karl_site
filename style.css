@@ -90,6 +90,7 @@ ul
 .home_image
 {
     width: 100%;
+    margin-top: 40px;
 }
 
 footer
@@ -116,7 +117,8 @@ footer
     #logo
     {
         text-align: left;
-        margin-left: 16px;
+        font-size: 50px;
+        margin-left: 3%;
     }
 
     .main_content
@@ -139,6 +141,11 @@ footer
         width: 94%;
     }
 
+    .home_image
+    {
+        margin-top: 0px;
+    }
+
     li
     {
         margin: 40px 0;
@@ -148,13 +155,8 @@ footer
     footer
     {
         height: auto;
-        padding: 15px 0;
-        font-size: 25px;
-    }
-
-    #hidden
-    {
-        display: none;
+        padding: 15px 25px;
+        font-size: 28px;
     }
 
 }
